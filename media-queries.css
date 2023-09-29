@@ -1,0 +1,172 @@
+@media screen and (max-width: 991px) {
+    .hover-button {
+        display: block;
+        margin-right: 20px;
+    }
+
+    nav .container {
+        overflow: initial;
+    }
+
+    .navbar {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+    }
+
+    .navbar.active {
+        left: 0;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 48.2%;
+        height: 230px;
+    }
+
+    .card p {
+        bottom: 70px;
+    }
+
+    .cta {
+        padding-top: -100px;
+        height: 500px;
+    }
+
+    .cta ul, .cta .small-bold-text {
+        display: none;
+    }
+
+    .cta-text {
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .cta-img {
+        display: none;
+    }
+
+    .cta2 {
+        display: none;
+    }
+
+    .comp-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    header .container {
+        flex-direction: column-reverse;
+    }
+
+    .header-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-button {
+        width: 100%;
+    }
+
+    .terms {
+        max-width: 100vw;
+        margin-right: 60px;
+    }
+    
+    .col {
+        width: 40%;
+    }
+
+    .big-features1 {
+        flex-direction: column;
+    }
+
+    .big-features2 {
+        flex-direction: column-reverse;
+    }
+
+    .big-features3 {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+
+    footer .container {
+        padding-top: 40px;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .subfooter {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 479px) {
+    .col {
+        width: 100%;
+    }
+
+    .features {
+        background-image: none;
+    }
+
+    .big-features-img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card {
+        min-width: 100%;
+        height: auto
+    }
+
+    .card p {
+        bottom: 20px;
+        font-size: 25px;
+    }
+
+    .cta h2 {
+        padding-top: 30px;
+      }
+
+    .cta-button p{
+        display: block;
+        margin-bottom: -40px;
+    }
+
+    .big-features-text {
+        width: 100%;
+    }
+
+    .text1 {
+        max-width: 100%;
+    }
+
+    .cta2 {
+        margin-top: -20px;
+        display: block;
+    }
+
+    .examples h2 {
+        font-weight: lighter;
+        padding-bottom: 10px;
+    }
+
+}
